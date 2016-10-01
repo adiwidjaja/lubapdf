@@ -47,6 +47,7 @@ class PdfView extends View
     public function saveToFile($filename)
     {
         $html = $this->render();
+        $snappy = new Pdf(WKHTMLTOPDF);
         $snappy->generateFromHtml($html, $filename, $this->options);
     }
 }
