@@ -8,5 +8,10 @@
     ],
     "require": {
         "knplabs/knp-snappy": "^0.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Luba\\": "src/"
+        }
     }
 }
