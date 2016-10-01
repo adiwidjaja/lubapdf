@@ -1,7 +1,12 @@
 {
     "name": "adiwidjaja/lubapdf",
     "description": "Luba addon for pdf views.",
+    "authors": [
+        {
+            "name": "Andy Adiwidjaja"
+        }
+    ],
     "require": {
-        "php": "^5.3.3 || ^7.0",
+        "knplabs/knp-snappy": "^0.4"
     }
 }
